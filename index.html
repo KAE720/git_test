@@ -18,7 +18,7 @@
 
     <h1> My website </h1> <!-- larger and bolder than paragraphs -->
     <!-- h1 is biggest and geos down to h6 which is smallest -->
-<h2> info:</h2>
+    <h2> info:</h2>
     <p>
         element1<!-- to spearate sentences and add a new line for each p tag -->
     </p>
@@ -29,43 +29,61 @@
         <em>element3<em> <!-- em italicises things -->
     </p>
 
-<p>
-    <a href = "https://www.theodinproject.com/about"> About the Odin Project</a> <!-- a is an anchor element which lets us add a link inside -->
-<!-- can link to videos, pdfs, images as well as other html documents -->
- <!-- this way links the link on the same page/tab -->
-</p>
+    <p>
+        <a href="https://www.theodinproject.com/about"> About the Odin Project</a>
+        <!-- a is an anchor element which lets us add a link inside -->
+        <!-- can link to videos, pdfs, images as well as other html documents -->
+        <!-- this way links the link on the same page/tab -->
+    </p>
 
- <p>
- <a href = "https://www.theodinproject.com/about" target = "_blank" > About the odin project on a new page</a>
-</p>
-<!-- link to a new page on a new blank page -->
+    <p>
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer"> About the odin project
+            on a new page</a>
+    </p>
 
-<ul> <!-- creates an unordered list of bullet points -->
-    <li><strong>item1</strong></li> <!-- creates each list element -->
-    <li>item2</li>
-    <li>item3</li>
-</ul>
+    <p>
 
-<article> blog info area</article> <!-- independent content area -->
+<a href = "https:/www.theodinproject.com/about"> About The Odin Project</a>
 
-<br> <!-- page breaks / spaces -->
-<br>
+<a href = "pages/about.html"> About </a>  <!-- this links to another html file in the same directory -->
 
-<input type="text"> <!-- input box for text -->
-<button>send</button> <!-- adds a button -->
+    </p>
+    <!-- link to a new page on a new blank page -->
+    <!-- the rel part makes sure the new tab cannot interact with the original page -->
+
+    <ul> <!-- creates an unordered list of bullet points -->
+        <li><strong>item1</strong></li> <!-- creates each list element -->
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+
+    <article> blog info area</article> <!-- independent content area -->
+
+    <details> <!-- clickable dropdown with more info here -->
+        <summary> blog summary </summary>
+        <p> more info written here</p>
+    </details>
+
+    <br> <!-- page breaks / spaces -->
+    <br>
+
+    <input type="text"> <!-- input box for text -->
+    <button>send</button> <!-- adds a button -->
 
 
-<ol> <!-- creates an ordered numbered list -->
-    <li>ordered1</li>
-    <li>ordered2</li>
-    <li>ordered3</li>
-</ol>
 
-<select>
-<option> option 1 </option>
-<option> option 2 </option>
-<option> option 3</option>
-</select>
+
+    <ol> <!-- creates an ordered numbered list -->
+        <li>ordered1</li>
+        <li>ordered2</li>
+        <li>ordered3</li>
+    </ol>
+
+    <select> <!-- dropdown menu -->
+        <option> option 1 </option>
+        <option> option 2 </option>
+        <option> option 3</option>
+    </select>
 
 
 </body>
