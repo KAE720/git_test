@@ -7,18 +7,50 @@
 
 <head> <!--  head element is for impoportant meta information -->
     <meta charset="UTF-8"> <!-- for the browser to be able to read special chars -->
-    <title> My website</title> <!-- title of the tab -->
+    <title> Webwork</title> <!-- title of the tab -->
 
+    <link rel="stylesheet" href="stylesheet.css">
 
 </head>
 
 <body> <!-- where all the displayed content will go -->
 
 
-
-    <h1> My website </h1> <!-- larger and bolder than paragraphs -->
+    <h1 class="title"> Y2K Webwork</h1> <!-- larger and bolder than paragraphs -->
     <!-- h1 is biggest and geos down to h6 which is smallest -->
-    <h2> info:</h2>
+    <h2>dogGuy1974 </h2>
+
+
+    <div class="pfp-container">
+
+
+        <div class="nestedside">
+            <img src="pages/dog.jpg" alt="Dog photo" height="310" width="310">
+            <!-- adds an image to the page from the pages folder -->
+            <!-- alt description is used if the photo cannot be loaded -->
+            <!-- height and width is used to specify the size of the photo-->
+            <ul>
+                <li> <strong>Name:</strong></li>
+                <li> <strong>Location: </strong></li>
+                <li> <strong>Age:</strong></li>
+                <li><strong>Hobbies:</strong></li>
+                <li> <strong>Favourite quote:</strong></li>
+            </ul>
+        </div>
+
+        <div class="nestedbottom">
+
+            <button><strong>Message</strong></button>
+            <button><strong>Email</strong></button>
+            <button><strong>Share</strong></button>
+            <button><strong>Follow</strong></button>
+
+
+        </div>
+
+
+    </div>
+
     <p>
         element1<!-- to spearate sentences and add a new line for each p tag -->
     </p>
@@ -27,6 +59,9 @@
     </p>
     <p>
         <em>element3<em> <!-- em italicises things -->
+    </p>
+
+    <p> here is another element with a link beside it <a href="https://www.theodinproject.com/about"> here is the link
     </p>
 
     <p>
@@ -43,13 +78,11 @@
 
     <p>
 
-<a href = "https:/www.theodinproject.com/about"> About The Odin Project</a>
+        <a href="https:/www.theodinproject.com/about"> About The Odin Project</a>
 
-<a href = "pages/aboutPage.html"> About </a>  <!-- this links to another html file in the same directory -->
+        <!--  <a href="pages/aboutPage.html"> About </a> this links to another html file in the same directory -->
 
-<img src = "pages/dog.jpg" alt = "Dog photo" height="310" width="310"> <!-- adds an image to the page from the pages folder -->
-<!-- alt description is used if the photo cannot be loaded -->
- <!-- height and width is used to specify the size of the photo-->
+
 
     </p>
     <!-- link to a new page on a new blank page -->
@@ -65,13 +98,14 @@
 
     <details> <!-- clickable dropdown with more info here -->
         <summary> blog summary </summary>
-        <p> more info written here</p>
+        <p> Interests: dogs, sports, video games</p>
     </details>
 
     <br> <!-- page breaks / spaces -->
     <br>
 
-    <input type="text"> <!-- input box for text -->
+
+    <textarea id="mytextarea"> </textarea>
     <button>send</button> <!-- adds a button -->
 
 

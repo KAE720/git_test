@@ -8,23 +8,22 @@
 
 }
 
-em, strong, a {
+em,
+strong,
+a {
     background-color: transparent;
     border: none;
     margin: 0;
     padding: 0;
 }
 
-
-
-ul, ol{
-list-style-type: none;
+ul,
+ol,
+.nestedbottom {
+    list-style-type: none;
 }
 
-
-
-
-#mytextarea{
+#mytextarea {
     height: 100px;
     padding: 10px;
     vertical-align: bottom;
@@ -32,14 +31,23 @@ list-style-type: none;
     box-sizing: border-box;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
-.pfp-container{
+.pfp-container {
     display: flex;
+    flex-direction: column;
 }
 
-.pfp-container li{
-    margin-right: px;
+.pfp-container .nestedside {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+}
+
+.pfp-container .nestedbottom {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
 }
