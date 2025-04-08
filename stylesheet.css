@@ -1,0 +1,45 @@
+* {
+
+    padding: 5px;
+    border: 1px solid black;
+    background-color: turquoise;
+    margin: 5;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+
+}
+
+em, strong, a {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul, ol{
+list-style-type: none;
+}
+
+
+
+
+#mytextarea{
+    height: 100px;
+    padding: 10px;
+    vertical-align: bottom;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+.pfp-container{
+    display: flex;
+}
+
+.pfp-container li{
+    margin-right: px;
+}
